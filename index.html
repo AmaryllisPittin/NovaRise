@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaRise.fr</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/56bc717981.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <topbar class="topbar">
+            <span>
+                <h1>NovaRise</h1>
+            </span>
+            <span class="topbar-links">
+                <a class="topbar-link" href="">Accueil</a>
+                <a class="topbar-link" href="">A propos</a>
+                <a class="topbar-link" href="">Services</a>
+                <a class="topbar-link" href="">Blog</a>
+                <a class="topbar-link" href="">Evènements</a>
+                <a class="topbar-link" href="">Nous contacter</a>
+            </span>
+        </topbar>
+        <div class="banner">
+            <img src="img/banner.jpg" alt="Bannière - grattes-ciels">
+            <div class="banner-background"></div>
+            <div class="banner-text">
+                <h1 class="banner-text-h1">Transformez vos idées en réalité</h1>
+                <p class="banner-text-p">Découvrez des solutions sur mesure pour faire passer votre projet au niveau supérieur. Innovation, qualité et expertise à votre service.</p>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <span class="about-section">
+            <h1 class="about-h1">A propos de nous</h1>
+            <img class="about-img" src="./img/about.webp" alt="About">
+        </span>
+        <span class="about-section">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi non maiores quia rerum. Reprehenderit ex est eos magni ea? Est alias laborum, a veritatis nostrum aliquam porro nisi praesentium nemo?</p>
+        </span>
+    </section>
+    <section class="services">
+        <h1 class="services-h1">Nos services</h1>
+        <div class="cards-container">
+            <div class="card">
+                <i class="fa-solid fa-code"></i>
+                <h2 class="card-title">Conception Web</h2>
+                <p class="card-text">Création de sites modernes, réactifs et adaptés à tous les appareils.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-briefcase"></i>
+                <h2 class="card-title">Stratégie Marketing</h2>
+                <p class="card-text">Campagnes sur mesure pour maximiser votre visibilité et votre impact.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-diagram-project"></i>
+                <h2 class="card-title">Gestion de Projets</h2>
+                <p class="card-text">Accompagnement de l'idée à la réalisation, avec des résultats concrets.</p>
+            </div>
+            <div class="card">
+                <i class="fa-regular fa-object-group"></i>
+                <h2 class="card-title">Design Graphique</h2>
+                <p class="card-text">Logos, visuels et supports qui reflètent l’âme de votre marque</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-globe"></i>
+                <h2 class="card-title">E-commerce et Boutique en ligne</h2>
+                <p class="card-text">Lancement ou optimisation de votre boutique avec des outils performants.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-gears"></i>
+                <h2 class="card-title">Support et Maintenance</h2>
+                <p class="card-text">Un service continu pour résoudre vos problèmes et assurer la pérennité.</p>
+            </div>
+        </div>
+    </section>
+    <section class="videos">
+        <h1 class="videos-h1">Nos vidéos</h1>
+        <p class="videos-text">Découvrez nos services conçus pour transformer vos idées en succès. Que vous soyez un entrepreneur ambitieux ou une entreprise établie, nous sommes là pour vous accompagner à chaque étape</p>
+        <div class="video-container">
+            <img class="video" src="./img/video.jpg" alt="video blog de la société - présentation">
+            <i class="fa-solid fa-circle-play"></i>
+        </div>
+    </section>
+    <section class="clients">
+        <h1 class="clients-h1">Nos avis clients</h1>
+        <p class="clients-text">Aucun avis client publié pour l'instant.</p>
+    </section>
+    <footer class="footer">
+        <h1 class="footer-h1">Nous contacter</h1>
+        <p class="footer-p">N'hésitez pas à nous contacter afin de pouvoir échanger</p>
+        <div class="form-container">
+            <form class="form" action="" method="get" class="form-example">
+                <input type="text" name="name" id="name" placeholder="Nom" required />
+                <input type="tel" id="phone" name="phone" placeholder="Numéro de téléphone" required>
+                <input type="email" name="email" id="email" placeholder="Numéro tel." required />
+                <textarea id="message" name="message" rows="5" cols="33">
+                    Votre message...
+                    </textarea>
+                <input type="submit" value="Envoyer" />
+            </form>
+            <div class="infos">
+                <h2 class="infos-h2">Nos coordonnées</h2>
+                <p class="infos-p">01 00 00 00 00</p>
+                <p class="infos-p">example@gmail.com</p>
+                <span class="links">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </span>
+            </div>
+        </div>
+        <p class="copyright">2024 Tout droit réservé - site développé par Amaryllis PITTIN</p>
+    </footer>
+</body>
+</html>
