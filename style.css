@@ -60,14 +60,14 @@
 }
 
 .banner-text-h1 {
-    font-size:60px;
+    font-size:3vw;
     margin-bottom:30px;
 }
 
 .banner-text-p,
 .about-section,
 .videos-text {
-    font-size: 20px;
+    font-size: 1.2vw;
     text-align: justify;
 }
 
