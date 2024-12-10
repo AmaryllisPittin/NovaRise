@@ -201,6 +201,10 @@
     margin:0;
 }
 
+.footer-p {
+    margin-bottom:30px;
+}
+
 .infos {
     width: 50%;
     display: flex;
@@ -209,12 +213,16 @@
 }
 
 .infos-h2 {
-    padding-bottom:20px;
+    padding-bottom:30px;
 }
 
 .infos-p,
 .links {
-    padding-bottom:10px;
+    padding-bottom:20px;
+}
+
+.fa-brands:hover {
+    color:rgb(73, 73, 255);
 }
 
 .links {
@@ -224,3 +232,34 @@
     font-size:20px;
     cursor:pointer;
 }
+
+input {
+    border-radius: 10px;
+    border:none;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:10px;
+    margin-bottom:20px;
+}
+
+textarea {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-top:20px;
+    padding-left: 10px;
+}
+
+.submit {
+    font-size: 20px;
+    color: rgb(3, 3, 184);
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.submit:hover {
+    color: white;
+    background-color: rgb(3, 3, 184);
+}
+
